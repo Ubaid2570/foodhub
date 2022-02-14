@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+.backdark{
+background-color: #F05454;
+width:100% !important;
+
+}
+.backlight{
+  background-color: #F5F5F5;
+}
+
+
+ /* navbar css */
+.start{
+  width: 70vw !important;
+}
+.start{
+  background-color: #F05454;
+}
+.mid{
+  width: 70vw;
+  margin:0 15%;
+  padding-top:20% ;
+}
+.logo{
+  color: white !important;
+  font-size: 3rem !important;
+font-family: 'Ubuntu Mono', monospace  ;
+}
+.menu-list{
+  color: white !important;
+  text-align: center !important;
+}
+/* end nav bar */
+/* start top section */
+.top-sec{
+      padding: 7% 15%;
+  }
+.top-head{
+  padding: 7% 15%;
+  color: white;
+  margin: 0 !imp;ortant;
+  font-size: 3rem ;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-img{
+  width:100%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+.buton1{
+  margin-left: 15%;
+  background-color: black!important;
+  outline: none !important;
+border: 2px solid grey  !important;
+}
+.buton2{
+  background-color: #F05454 !important;
+  margin-left: 1.5rem;
+  border: 1px solid white !important;
+
+}
+.buton2:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.buton1:hover{
+  border: none !important;
+}
+/* top section end */
+/* start testimonial */
+.view{
+  padding: 10% 7% !important;
+  text-align: center;
+  width: 100vw !important;
+}
+.icon{
+color: #F05454;
+padding-bottom: 5%;
+}
+.view h2{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 1.5rem;
+}
+.view p{
+  color:grey;
+  width:80%;
+  margin: 5% auto;
+}
+/* end testimonial */
+/* start carousel */
+.carousel-area{
+  text-align: center;
+  color: white;
+
+}
+.carousel-area h1{
+  padding: 7% 10% 2% 10%;
+  line-height: 4rem;
+}
+.carousel-img{
+height: 6rem !important;
+width: 6rem;
+  border-radius:100%;
+}
+.carousel-area p{
+  display: inline-block;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* end carousel */
+/* start logo area */
+.logo-area{
+  padding-top: 4%;
+
+}
+.logo-img{
+  width: 10%;
+  margin: 1rem 2rem;
+}
+/* start card section */
+.mycard{
+  background-color: white;
+  color: black;
+  padding:  7% 15% !important;
+}
+.fullwidth{
+  width: 100vw;
+  background-color: white;
+}
+/* download section */
+.downlad{
+  text-align: center;
+}
+.downlad h1{
+  font-size: 3rem;
+  padding: 10% 7% 5% 7%;
+}
+.butonn{
+padding: 0 5% 10% 5%;
+
+}
+.s1buton{
+  margin-left: 0px !important;
+}
+/* start footer */
+.footer{
+  height: 10rem;
+  color:black;
+}
+.fa-3x{
+  padding-top: 6rem ;
+  padding-left: 1.5rem;
+}
+.footer p{
+  display: block;
+  padding:1rem 0;
+}
